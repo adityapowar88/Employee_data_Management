@@ -1,0 +1,191 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#homepage{
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid white;
+    box-shadow: 0px 2px 8px 0 rgb(125, 234, 198);
+}
+
+#homepage>a{
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(236, 145, 145);
+}
+
+
+#myforms{
+    height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-image:linear-gradient rgb(black ,white); */
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+#myforms>form>h4{
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    color: rgb(236, 145, 145);
+    text-shadow:  2px 2px 15px white;
+    /* box-shadow:  0px 0px 10px white; */
+}
+
+#myforms>form{
+    height: 50%;
+    display: flex;
+    width: 270px;
+    flex-direction: column;
+    background-color: black;
+    border: 1px solid white;
+    box-shadow: 0px 0px 8px rgb(71, 210, 164);
+    border-radius: 10px;
+    color: white;
+    padding: 10px 15px;
+    justify-content: space-around;
+    align-items: center;
+    font-style: italic;
+    
+}
+
+#myforms>form>input{
+    padding: 7px;
+    border-radius: 15px;
+    border: none;
+
+}
+
+#myforms>form>input:focus{
+    outline: none;
+    background-color: rgb(127, 236, 238);
+}
+
+#myforms>form>button{
+    width: 100px;
+    padding: 6px;
+    display: flex;
+    justify-content: center; 
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 20px;
+    background-color: rgb(101, 240, 194);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:600;
+    font-style: italic;
+    text-decoration: none;
+    border: none;
+}
+
+#myforms>form>button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.0s;
+}
+
+
+
+
+/* Css for User.jsx */
+
+
+#maain_user{
+    height:100%;
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#User{
+    height:100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    padding: 0px 0px 5px;
+    padding-left: 5px;
+}
+
+#User>table{
+    height: 70%;
+    width: 230px;
+    background-color: black;
+    border: 1px solid white;
+    box-shadow: 0px 0px 8px rgb(71, 210, 164);
+    border-radius: 10px;
+    color: white;
+    padding: 17px 22px;
+    display:flex ;
+    font-style: italic;
+    display: inline-block;
+
+    
+}
+
+#User>table:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+#User>table>tr{
+    font-size: medium;
+    font-weight: 450;
+}
+
+#User>table>tr{
+    padding-left: 20px;
+    width: 30px;
+    padding-bottom: 5px;
+    background: transparent;
+    color: white;
+    border: none;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#User>table>tr>td>button{
+    height: 25px;
+    width: 70px;
+    border: none;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 20px;
+    font-size: 12  px;
+    font-weight: bold;
+    background-color: rgb(155, 234, 200);
+    display: inline-block;
+    margin: 0 25px;
+    margin-top: 20px;
+    margin-left: 3px;
+
+}
+#User>table>tr>td>button,a{
+    text-decoration: none;
+    color: black;
+}
+#User>table>tr>td>button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+#User>table>tr>#red>button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.3s;
+    background-color: red;
+}
